@@ -1,0 +1,24 @@
+title: 
+url: "https://blog.zdwolfe.com"
+baseurl: ""
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-postfiles
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - product/
+  - README.md
