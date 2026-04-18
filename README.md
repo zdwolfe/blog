@@ -10,3 +10,9 @@ eval "$(rbenv init -)"
 bundle install
 bundle exec jekyll serve
 ```
+
+## tools
+
+```bash
+make strip-exif
+```
